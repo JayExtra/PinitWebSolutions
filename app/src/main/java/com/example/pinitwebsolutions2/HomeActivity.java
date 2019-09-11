@@ -20,15 +20,21 @@ import com.example.pinitwebsolutions2.ui.main.SectionsPagerAdapter;
 
 public class HomeActivity extends AppCompatActivity {
 
+    ViewPager viewPager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager());
-        ViewPager viewPager = findViewById(R.id.view_pager);
+        viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
         TabLayout tabs = findViewById(R.id.tabs);
         tabs.setupWithViewPager(viewPager);
 
     }
-}//clients slideshow
+
+    public void tabSelect(int position){
+        viewPager.setCurrentItem(position);
+    }
+}

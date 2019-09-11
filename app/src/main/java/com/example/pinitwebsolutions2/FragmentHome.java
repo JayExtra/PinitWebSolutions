@@ -58,9 +58,7 @@ public class FragmentHome extends Fragment {
             @Override
             public void onClick(View view) {
 
-                View rootView = inflater.inflate(R.layout.activity_home, container, false);
-                viewPager = (ViewPager) rootView.findViewById(R.id.view_pager);//Initializing
-                viewPager.setCurrentItem(4);
+                ((HomeActivity)getActivity()).tabSelect(4);
 
 
             }
@@ -174,6 +172,8 @@ public class FragmentHome extends Fragment {
 
         return likeIng;
     }
+
+
 
 
 
