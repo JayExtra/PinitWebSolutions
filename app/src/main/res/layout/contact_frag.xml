@@ -65,8 +65,8 @@
 
             <Button
                 android:id="@+id/button_call"
-                android:layout_width="46dp"
-                android:layout_height="48dp"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
@@ -75,9 +75,9 @@
                 android:layout_marginStart="298dp"
                 android:layout_marginLeft="298dp"
                 android:layout_marginTop="26dp"
-                android:layout_marginEnd="19dp"
-                android:layout_marginRight="19dp"
-                android:background="@drawable/button_curved"
+                android:layout_marginEnd="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@drawable/button_file2"
                 android:backgroundTint="@color/colorGreen"
                 android:drawableTop="@drawable/phone"
                 android:text="Call"
@@ -299,7 +299,7 @@
                 android:layout_marginEnd="117dp"
                 android:layout_marginRight="117dp"
                 android:layout_marginBottom="47dp"
-                android:background="@drawable/button_curved"
+                android:background="@drawable/button_file2"
                 android:backgroundTint="@color/colorGreen"
                 android:text="Send"
                 android:textColor="@color/colorWhite" />

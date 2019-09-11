@@ -6,4 +6,7 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorGreen">#41CC89</color>
     <color name="colorTransparentWhite">#CCCCCC</color>
+
+    <color name="buttonPressed">#666666</color>
+    <color name="buttonNotPressed">#999999</color>
 </resources>
